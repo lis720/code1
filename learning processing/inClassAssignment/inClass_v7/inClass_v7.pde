@@ -24,23 +24,21 @@ void draw() {
   if (buttonClicked1 && buttonClicked2!=buttonClicked1) {
     ColRect(0, 0, 50);
   } else {
+
   }
   //button1=false button2=true
   if (buttonClicked2 && buttonClicked1!=buttonClicked2) {
     ColCirc(0, 0, 25);
   } else {
+    
   }
- //both true
+  //both true
   if (buttonClicked2==buttonClicked1) {
     fill(55);
     strokeWeight(3);
     maze(0, 0, 20);
   } else {
   }
-  
-
-
-
 
   //button one shape
   fill(155);
